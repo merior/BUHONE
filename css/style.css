@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* html {
   
   
@@ -29,7 +30,25 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.section_subtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    margin-bottom: 40px;
+}
 
+.section_title {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px; 
+    color: #333333;
+    margin-bottom: 102px;
+}
 .logo{
     font-family: 'Merriweather', sans-serif;
 font-style: normal;
@@ -331,50 +350,7 @@ strong{
     
     color: #000000;
 }
-/* .boxes__company{
-   margin-left: 125px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-.box{
-    width: 255px;
-height: 255px;
-     max-width: 255px;
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #EBEBEB;;
-}
 
-.tittle__box{
-    font-family: 'Lato', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 55px;
-line-height: 66px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-}
-.txt__box{
-    
-    max-width: 107px;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 18px;
-}
-.link__box{
-    font-family: 'Lato',sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-color: #005FA3;
-} */
 
 .box-company{
     display: flex;
@@ -395,15 +371,7 @@ color: #005FA3;
     transition: all .3s;
 }
 
-/* .selected_abutus .trade_number,
-.selected_abutus .trade_text, 
-.selected_abutus .case_link {
-    color: white;
-} */
 
-/* .selected_abutus {
-    background: #005FA3;
-} */
 
 .box {
 
@@ -453,4 +421,251 @@ color: #FFFFFF;
 }
 .box:hover .link__box{
     color: #FFFFFF;
+}
+
+.section_clients {
+    padding: 100px 0;
+    background: #EBEBEB;
+}
+
+.section_clients .section_title {
+    margin-bottom: 80px;
+}
+
+.companies_container {
+    position: relative;
+}
+
+.companies_imgs {
+    margin-bottom: 100px;
+}
+
+.alt {
+    background: #005FA3;
+    opacity: 0.4;
+}
+
+.selected_alt {
+    background: #005FA3;
+    opacity: 1;
+}
+.microaw{
+position: absolute;
+bottom: 0;
+left: 990px;
+}
+.alt_arrow:first-child {
+    padding: 30px;
+    background: rgba(0, 95, 163, 0.2) url(../img/arrowL.png) no-repeat center;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.alt_arrow:last-child {
+    padding: 30px;
+    background: rgba(0, 95, 163, 0.2) url(../img/arrowR.png) no-repeat center;
+    border: none;
+    cursor: pointer;
+    transition: all .3s; 
+}
+
+.alt_arrow:first-child:hover {
+    background: #005FA3 url(../img/arrowL.png) no-repeat center;
+}
+
+.alt_arrow:last-child:hover {
+    background: #005FA3 url(../img/arrowR.png) no-repeat center;
+}
+
+/* section_feedback */
+
+.section_feedback {
+    background: white;
+    padding: 140px 0 135px;
+}
+
+.feedback {
+    position: relative;
+}
+
+.feedback_container {
+    background: #EBEBEB;
+    padding: 45px 95px;
+    margin-bottom: 100px;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+}
+
+.feedback_text {
+    margin-bottom: 58px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.user_img {
+    margin-right: 35px;
+}
+
+.name_user {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;    
+}
+
+.user_post {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;  
+    color: #4F4F4F;
+}
+.feedaw{
+position: absolute;
+bottom: 0;
+left: 990px;
+}
+/* section_input */
+
+.section_input {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back1.png) no-repeat center / cover, #C4C4C4;
+    padding: 122px 0 230px;
+}
+
+.input_text .section_title {
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.input_text .section_desc {
+    max-width: 445px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.input_contacts {
+    display: flex;
+    margin-top: 80px;
+}
+
+.input_contacts .header-contact_item {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-right: 40px;
+    padding-left: 30px;
+}
+
+.input_contacts .header-contact_item:last-child {
+    margin-right: 0;
+    padding-left: 60px;
+}
+
+.phone_img_alt::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/phone_alt.png) no-repeat center;
+    width: 18px;
+    height: 30px;
+}
+
+.mail_img_alt::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/mail_alt.png) no-repeat center;
+    width: 40px;
+    height: 30px;
+}
+
+.input_form-container {
+    position: relative;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_name {
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.input_form {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    resize:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.input_form:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.contact_form {
+    height: 136px;
+    padding-bottom: 0;
+}
+
+.input_container:first-child {
+    margin-right: 30px;
+}
+
+.button_input {
+    margin: 0;
+    position: absolute;
+    bottom: -112px;
+    right: 0;
+}
+
+/* section_footer */
+
+.section_footer {
+    padding: 55px 0 40px;
+}
+
+.section_footer p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
 }
